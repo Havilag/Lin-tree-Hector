@@ -1,0 +1,17 @@
+{
+  "name": "talwin",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "tailwindcss": "^4.2.1"
+  },
+   "scripts": {
+    "build:styles": "npx @tailwindcss/cli -i ./input.css -o ./styles/output.css --watch"
+  }
+  
+}
